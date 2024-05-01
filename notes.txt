@@ -1,0 +1,29 @@
+
+
+
+Part0
+
+AJAX: old website structure where GET requests return server-created HTML docs
+Single-Page Apps are now considered the right way
+
+
+Part1
+
+npm create vite@latest [app-name] -- --template react
+
+-> creates a react application
+
+cd [app-name]
+npm install
+npm run dev
+
+-> starts application on localhost:5173
+
+const App = () => {...}
+
+-> React components must be defined with a capital
+
+-> React components must have a root element but we can sub <div></div> with fragments: <></>
+    that do not render as an outer div
+
+-> Do not render objects
